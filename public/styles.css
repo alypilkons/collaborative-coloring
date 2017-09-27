@@ -1,0 +1,58 @@
+#color-container {
+  width: 400px;
+  height: 358px;
+  border-left: 1px solid black;
+}
+
+.space {
+  width: 20px;
+  height: 20px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  display: inline-block;
+  margin-bottom: -5px;;
+}
+
+.space:hover {
+  cursor: pointer;
+}
+
+#color-options {
+  margin-top: 15px;
+}
+
+.color-option {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  margin: 5px;
+}
+
+.color-option:hover {
+  cursor: pointer;
+}
+
+#color1 {
+  background-color: #ff0099;
+}
+
+#color2 {
+  background-color: #f3f315;
+}
+
+#color3 {
+  background-color: #83f52c;
+}
+
+#color4 {
+  background-color: #15f4ee;
+}
+
+#color5 {
+  background-color: #ba0be0;
+}
+
+#color6 {
+  background-color: #0511c2;
+}
