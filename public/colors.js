@@ -1,4 +1,5 @@
-const socket = io.connect('http://localhost:3000')
+//const socket = io.connect('http://localhost:3000')
+const socket = io.connect('http://collaborativecoloring.herokuapp.com');
 
 const numOfSpaces = 323;
 const colorChoices = 6;
