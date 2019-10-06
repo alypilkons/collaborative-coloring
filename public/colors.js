@@ -1,5 +1,5 @@
-//const socket = io.connect('http://localhost:3000')
-const socket = io.connect('http://collaborativecoloring.herokuapp.com');
+const socket = io.connect('http://localhost:3000')
+//const socket = io.connect('http://collaborativecoloring.herokuapp.com');
 
 const numOfSpaces = 323;
 const colorChoices = 6;
@@ -29,8 +29,7 @@ $('.color-option').on('click', function () {
   $(this).css('border', '3px solid black');
   chosenColor = $(this).css('background-color');
   console.log(chosenColor);
-})
-
+});
 
 // user chooses a space
 $('.space').on('click', function(data) {
@@ -44,6 +43,6 @@ $('.space').on('click', function(data) {
   });
 });
 
-socket.on('color-change', function(data) {
+socket.on('color-change', function (data) {
   $('.space').eq(data.index).css('background-color', data.color)
 });
